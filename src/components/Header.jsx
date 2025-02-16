@@ -1,4 +1,6 @@
 
+import globeImg from "../assets/globe_epo0hx.png";
+
 const Header = () => {
 
     const headerStyle =  {
@@ -23,7 +25,7 @@ const Header = () => {
 
     return (
         <div style={headerStyle}>
-            <img style={headerImgStyle} src="./src/assets/globe_epo0hx.png" alt="Globe"></img>
+            <img style={headerImgStyle} src={globeImg} alt="Globe"></img>
             <h1 style={headerH1Style}>Travel Journal</h1>
         </div>
     )
