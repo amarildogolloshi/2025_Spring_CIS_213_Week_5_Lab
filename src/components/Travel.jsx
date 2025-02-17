@@ -8,8 +8,6 @@ import data from "../../public/data";
 import './Travel.css'
 
 const Travel = () => {
-    let [appointmentList, setAppointmentList] = useState([]);
-
     return (
         <div className="travel-container">
             {
